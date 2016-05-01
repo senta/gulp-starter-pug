@@ -51,8 +51,8 @@
       "htmlmin": {
         "collapseWhitespace": true
       },
-      "extensions": ["html", "json"],
-      "excludeFolders": ["layouts", "shared", "macros", "data"]
+      "extensions": ["pug"],
+      "excludeFolders": ["layouts", "shared", "mixins", "data"]
     },
 
     "images": {

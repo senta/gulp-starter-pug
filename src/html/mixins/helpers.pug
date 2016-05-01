@@ -1,0 +1,5 @@
+//- e.g +sprite("FOO")(class="foo").bar
+mixin sprite(id, viewBox = "0 0 1 1")
+  span(class=['sprite', '--#{id}'])(class=attributes.class)
+    svg(viewBox=viewBox)
+      use(xlink:href='images/icons.svg##{id}')
