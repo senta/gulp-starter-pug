@@ -33,7 +33,8 @@ var htmlTask = function() {
     .on('error', handleErrors)
     .pipe(render({
       basedir: path.join(config.root.src, config.tasks.html.src),
-      compileDebug: !global.production
+      compileDebug: !global.production,
+      pretty: '  '
     }))
     .on('error', handleErrors)
     .pipe(gulpif(global.production, htmlmin(config.tasks.html.htmlmin)))
