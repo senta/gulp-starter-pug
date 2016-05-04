@@ -6,6 +6,7 @@ html
     meta(charset="utf-8")
     title
       block title
+        | #{page && page.title || site.title}
     link(rel="stylesheet" href="stylesheets/app.css")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     include /shared/app-icons.html

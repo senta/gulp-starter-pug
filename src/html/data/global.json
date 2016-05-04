@@ -1,3 +1,5 @@
 {
-  "title": "New Project"
+  site: {
+    title: "New Project"
+  }
 }
