@@ -104,14 +104,14 @@ npm run gulp production
 ## Asset Task Details
 A `README.md` with details about each asset task are available in their respective folders in the `src` directory:
 
-- [JavaScript](src/javascripts)
-- [Stylesheets](src/stylesheets)
-- [HTML](src/html)
-- [Fonts](src/fonts)
-- [Images](src/images)
-- [Icon Font](src/icons#iconfont-task)
-- [SVG Sprite](src/icons#svg-sprite-task)
-- [Static Files (favicons, app icons, etc.)](src/static)
+- [JavaScript](docs/javascripts.md)
+- [Stylesheets](docs/stylesheets.md)
+- [HTML](docs/html.md)
+- [Fonts](docs/fonts.md)
+- [Images](docs/images.md)
+- [Icon Font](docs/icons#iconfont-task.md)
+- [SVG Sprite](docs/icons#svg-sprite-task.md)
+- [Static Files (favicons, app icons, etc..md)](docs/static.md)
 
 ## Additional Task Details
 
